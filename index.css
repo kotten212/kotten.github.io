@@ -1,0 +1,131 @@
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+  position: relative;
+  width: 96%;
+}
+
+li:not(:nth-child(3)) {
+  float: right;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #87CEFA;
+  color: white;
+}
+
+li:nth-child(3) {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Didot';
+}
+
+/* section {
+  background-image: url(clouds.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+} */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.about {
+  border: 5px solid white;
+  width: 500px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: 'Didot';
+  display: inline-block;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 50px;
+  margin-left: 100px;
+  }
+
+.welcome {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Didot';
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+}
+
+.projects {
+  font-size: 40px;
+  font-weight: bold;
+  color: #87CEFA;
+  font-family: 'Didot';
+  text-align: center;
+}
+
+.blue {
+  color: #87CEFA;
+  font-weight: bold;
+  font-family: 'Didot';
+
+}
+
+.black{
+  color: black;
+  font-family: 'Didot';
+  font-weight: normal;
+
+}
+
+
+.photo {
+  width: 500px;
+  margin: 40px;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.linkedin {
+  border: 5px solid white;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: 'Didot';
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  margin-left: 230px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.linkedin:hover {
+  background-color: #87CEFA;
+  color: white;
+}
+
+/* .active {
+  background-color: #87CEFA;
+  color: white;
+} */

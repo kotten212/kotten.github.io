@@ -1,0 +1,99 @@
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #87CEFA;
+  position: relative;
+  width: 96%;
+  background-color: white;
+}
+
+li:not(:nth-child(3)) {
+  float: right;
+  border: 1px solid #87CEFA;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: #87CEFA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #87CEFA;
+  color: white;
+}
+
+li:nth-child(3) {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: #87CEFA;
+  font-family: 'Didot';
+}
+
+section {
+  background-color: #87CEFA95;
+}
+
+
+
+.about {
+  border: 5px solid white;
+  width: 500px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: 'Didot';
+  display: inline-block;
+  margin-left: 110px;
+  margin-top: 250px;
+  position: relative;
+
+}
+
+.resume {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Didot';
+  display: block;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 190px;
+}
+
+.download {
+  border: 5px solid white;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: 'Didot';
+  display: inline-block;
+  color: black;
+  margin-left: 240px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.download:hover {
+  background-color: #87CEFA;
+  color: white;
+}
+
+.resumepg {
+  /* display: block; */
+  border: 1px solid black;
+  width: auto;
+  height: 80%;
+  margin-left: 750px;
+  margin-top: -420px;
+  /* position: relative; */
+
+}
